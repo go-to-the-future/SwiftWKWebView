@@ -14,6 +14,7 @@
 		8267822E22783645005DF2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8267822C22783645005DF2E2 /* LaunchScreen.storyboard */; };
 		8267823922783645005DF2E2 /* SwiftWKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267823822783645005DF2E2 /* SwiftWKWebViewTests.swift */; };
 		8267824422783645005DF2E2 /* SwiftWKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267824322783645005DF2E2 /* SwiftWKWebViewUITests.swift */; };
+		8267825322783DAF005DF2E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8267825222783DAF005DF2E2 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8267823F22783645005DF2E2 /* SwiftWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8267824322783645005DF2E2 /* SwiftWKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWKWebViewUITests.swift; sourceTree = "<group>"; };
 		8267824522783645005DF2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8267825222783DAF005DF2E2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8267825322783DAF005DF2E2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				8267823722783645005DF2E2 /* SwiftWKWebViewTests */,
 				8267824222783645005DF2E2 /* SwiftWKWebViewUITests */,
 				8267822122783644005DF2E2 /* Products */,
+				8267825122783DAE005DF2E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				8267824522783645005DF2E2 /* Info.plist */,
 			);
 			path = SwiftWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		8267825122783DAE005DF2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8267825222783DAF005DF2E2 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
